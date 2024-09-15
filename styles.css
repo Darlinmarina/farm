@@ -1,0 +1,20 @@
+/*footer { (sticky back to top button)
+  clear: left; ??
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}*/
+
+nav li{
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+}
+
+.btt{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+}
