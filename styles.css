@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    font-family: 'Habibi';
 }
 
 ol, ul {
@@ -48,21 +47,51 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-@font-face {
-    font-family:'Habibi';
-    font-style: normal;
-    src: url(https://fonts.gstatic.com/s/habibi/v21/CSR-4zFWkuqcTTNyQxhfVOY.woff2);
-}
 
+/*my css*/
 
 header{
     background-color: #06A816;
 }
 
+.quote{
+	font-style: italic;
+	color: white;
+}
+
+h1, h2, h3{
+	font-family: 'Irish Grover';
+}
+
+h1{
+	font-size: 2.5em;
+}
+
+h2{
+	font-size: 1.75em;
+}
+
+h3{
+	font-size: 1.25em;
+	text-align: center;
+}
+
+p{
+	font-family: 'Habibi';
+	font-size: 1.25em;
+}
+
+figcaption{
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	
+}
+
 nav li{
     list-style: none;
 }
-nav a {
+nav a{
     text-decoration: none;
 }
 
